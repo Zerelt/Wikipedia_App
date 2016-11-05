@@ -1,0 +1,11 @@
+{
+  "name": "wikipedia_app",
+  "version": "1.0.0",
+  "description": "wikipedia app",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dobre Alexandru",
+  "license": "ISC"
+}
