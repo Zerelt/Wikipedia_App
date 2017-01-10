@@ -3,8 +3,8 @@ $(document).ready(function() {
     var resultDisplay = $("#results");
     $("input").on('input', function(e) {
         x = $("input").val();
-      
-        $.getJSON('https://crossorigin.me/https://en.wikipedia.org/w/api.php', {
+
+        $.getJSON('https://cors-anywhere.herokuapp.com/https://en.wikipedia.org/w/api.php', {
             action: 'query',
             generator: 'search',
             gsrsearch: x,
